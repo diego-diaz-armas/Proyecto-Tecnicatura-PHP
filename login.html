@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/estiloLogin.css">
+    <link rel="icon" href="./imagen/favicon.png" type="image/x-icon">
+    <title>Login con session</title>
+</head>
+
+<body>
+    <div>
+        <h1>Login Empresa SARASA</h1>
+        <form action="php/loginfunc.php" method="post">
+            <label for="correo">Ingrese su correo:</label>
+            <input type="text" id="correo" name="correo" required>
+            <br>
+            <label for="contrasena">Ingrese su contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <div id="error-message" ></div>
+        <script src="js/script.js"></script>
+    </div>
+
+</body>
+</html>
