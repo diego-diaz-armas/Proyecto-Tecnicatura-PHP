@@ -2,15 +2,18 @@ body {
     font-family: Arial, sans-serif;
     background-color: #cad6f0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
+
 h1 {
     text-align: center;
     color: #333;
 }
+
 p {
     text-align: center;
     color: #666;
@@ -20,10 +23,12 @@ form {
     display: flex;
     flex-direction: column;
 }
+
 label {
     margin-bottom: 1px;
     color: #333;
 }
+
 input[type="text"],
 input[type="password"] {
     padding: 10px;
@@ -31,6 +36,7 @@ input[type="password"] {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 input[type="submit"] {
     background-color: #4CAF50;
     color: white;
@@ -39,11 +45,27 @@ input[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
 }
+
 input[type="submit"]:hover {
     background-color: #295e2c;
 }
+
 #error-message {
     color: red;
     text-align: center;
     margin-top: 10px;
+}
+
+#login-container {
+    text-align: center;
+    color: #333;
+}
+
+#test-users {
+    text-align: center;
+    margin-top: auto;
+    padding-bottom: 20px;
+}
+#test-users h2 {
+    color: #333;
 }

@@ -7,9 +7,9 @@
     <link rel="icon" href="./imagen/favicon.png" type="image/x-icon">
     <title>Login con session</title>
 </head>
-
 <body>
-    <div>
+    <main class="main-container">
+    <div id="login-container">
         <h1>Login Empresa SARASA</h1>
         <form action="php/loginfunc.php" method="post">
             <label for="correo">Ingrese su correo:</label>
@@ -20,10 +20,15 @@
             <br>
             <input type="submit" value="Enviar">
         </form>
-
-        <div id="error-message" ></div>
+        <div id="error-message"></div>
         <script src="js/script.js"></script>
     </div>
 
+    <div id="test-users">
+        <h2>Usuarios de pruebas:</h2>
+        <p>usuario Root diego 1234</p>
+        <p>usuario Comun bruno 1234</p>
+    </div>
+</main>
 </body>
 </html>

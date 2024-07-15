@@ -19,7 +19,7 @@ if(!isset($_SESSION['usuarios'])){
         ['nombre' => 'luis','apellido' => 'Gonzales','puesto' => 'Capatas','ci'=>'12345678'],
         ['nombre' => 'eduardo','apellido' => 'Diaz','puesto' => 'Peon','ci'=>'98765432'],
         ['nombre' => 'matias','apellido' => 'Armas','puesto' => 'Peon','ci'=>'12345670'],
-      
+    
     ];
 }
 
